@@ -13,4 +13,3 @@ isFiltered :: Int -> Bool
 isFiltered x = isMul3 x || isMul5 x || isMul15 x
 
 value = sum $ filter (isFiltered) [ 1..1000]
-show value
