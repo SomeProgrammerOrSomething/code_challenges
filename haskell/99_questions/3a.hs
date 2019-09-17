@@ -1,0 +1,4 @@
+-- elementAt :: [a] -> Integer -> a
+-- elementAt _ 0 = error "Index Needs to Positive"
+-- elementAt (x:_) 1 = x
+-- elementAt (_:xs) k = elementAt [xs] (k-1)
